@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="variable"/>
+  <qresource prefix="logo">
+    <file>Imagenes/logo uat.png</file>
+    <file>Imagenes/logo uat y fit.png</file>
+    <file>Imagenes/logo fit.png</file>
+    <file>Imagenes/imagenCables.png</file>
+  </qresource>
+</RCC>
