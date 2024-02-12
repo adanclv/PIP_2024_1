@@ -22,7 +22,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         calif5 = float(self.txt_calif5.text())
         promedio = (calif1 + calif2 + calif3 + calif4 + calif5) / 5
 
-        self.label_promedio.setText(f'Promedio {promedio}')
+        self.txt_resultado.setText(str(promedio))
 
 
 if __name__ == "__main__":

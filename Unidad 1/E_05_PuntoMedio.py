@@ -21,7 +21,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         y2 = float(self.txt_y2.text())
         x_medio = (x1 + x2) / 2
         y_medio = (y1 + y2) / 2
-        self.label_resultado.setText(f'Punto medio {x_medio, y_medio}')
+        self.txt_resultado.setText(f'{x_medio, y_medio}')
 
 
 if __name__ == "__main__":
