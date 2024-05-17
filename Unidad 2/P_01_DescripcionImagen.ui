@@ -17,9 +17,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>30</x>
       <y>20</y>
-      <width>271</width>
+      <width>281</width>
       <height>121</height>
      </rect>
     </property>
@@ -36,10 +36,10 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>20</y>
-      <width>271</width>
-      <height>121</height>
+      <x>480</x>
+      <y>10</y>
+      <width>281</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="text">
@@ -65,7 +65,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/logoCT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -75,22 +75,19 @@
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>230</y>
+      <y>220</y>
       <width>171</width>
-      <height>141</height>
+      <height>151</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
-    <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
-    </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_atras">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -103,17 +100,17 @@
      <string>Atras</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_siguiente">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>300</x>
       <y>390</y>
       <width>93</width>
       <height>28</height>
      </rect>
     </property>
     <property name="text">
-     <string>Adelante</string>
+     <string>Siguiente</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -137,14 +134,17 @@
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txt_nombre">
     <property name="geometry">
      <rect>
       <x>490</x>
       <y>240</y>
-      <width>113</width>
+      <width>161</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -168,24 +168,30 @@
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txt_pasatiempo">
     <property name="geometry">
      <rect>
       <x>490</x>
       <y>270</y>
-      <width>113</width>
+      <width>161</width>
       <height>22</height>
      </rect>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txt_edad">
     <property name="geometry">
      <rect>
       <x>490</x>
       <y>300</y>
-      <width>113</width>
+      <width>51</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
@@ -209,23 +215,26 @@
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="txt_sangre">
     <property name="geometry">
      <rect>
       <x>490</x>
       <y>330</y>
-      <width>113</width>
+      <width>51</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_10">
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>330</y>
+      <y>320</y>
       <width>151</width>
-      <height>21</height>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">

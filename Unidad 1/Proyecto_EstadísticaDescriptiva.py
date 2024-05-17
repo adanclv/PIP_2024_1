@@ -1,7 +1,6 @@
 import sys
 import numpy as np
 from scipy import stats as st
-import statistics as stat
 from PyQt5 import uic, QtWidgets
 
 qtCreatorFile = "Proyecto_EstadísticaDescriptiva.ui"  # Nombre del archivo aquí.
@@ -33,7 +32,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             lista_en_numeros = [float(i) for i in lista_str.split(",")]
 
             if nombre == "btn_moda":
-                resultado = stat.mode(lista_en_numeros)
+                resultado = st.mode(lista_en_numeros)[0]
                 self.txt_resultado.setText(str(resultado))
             elif nombre == "btn_mediana":
                 resultado = np.median(lista_en_numeros)

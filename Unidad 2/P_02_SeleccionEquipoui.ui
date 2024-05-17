@@ -65,7 +65,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/logoCT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -84,7 +84,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/poncho.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -111,7 +111,7 @@
      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QCheckBox" name="cb_1">
     <property name="geometry">
      <rect>
       <x>110</x>
@@ -121,10 +121,10 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Alfonso</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_2">
+   <widget class="QCheckBox" name="cb_2">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -134,7 +134,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Adan</string>
     </property>
    </widget>
    <widget class="QLabel" name="img_persona_2">
@@ -150,13 +150,13 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/adan.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="txt_equipo">
     <property name="geometry">
      <rect>
       <x>400</x>
@@ -165,8 +165,14 @@
       <height>121</height>
      </rect>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="overwriteMode">
+     <bool>false</bool>
+    </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_3">
+   <widget class="QCheckBox" name="cb_3">
     <property name="geometry">
      <rect>
       <x>550</x>
@@ -176,7 +182,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Cristobal</string>
     </property>
    </widget>
    <widget class="QLabel" name="img_persona_3">
@@ -192,7 +198,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/cristobal.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -211,13 +217,13 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/pavel.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_4">
+   <widget class="QCheckBox" name="cb_4">
     <property name="geometry">
      <rect>
       <x>780</x>
@@ -227,7 +233,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Pavel</string>
     </property>
    </widget>
   </widget>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>899</width>
-    <height>580</height>
+    <width>703</width>
+    <height>528</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,17 +17,17 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>10</x>
       <y>20</y>
-      <width>171</width>
-      <height>101</height>
+      <width>301</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/logo uat.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -36,17 +36,17 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>674</x>
-      <y>30</y>
-      <width>171</width>
-      <height>91</height>
+      <x>420</x>
+      <y>20</y>
+      <width>281</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/logo fit.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -55,53 +55,27 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>760</x>
-      <y>430</y>
-      <width>111</width>
-      <height>91</height>
+      <x>620</x>
+      <y>410</y>
+      <width>71</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/logoCT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
+   <widget class="QLabel" name="img_persona">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>30</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>FAcultad</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>20</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>UAT</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="img_persona_4">
-    <property name="geometry">
-     <rect>
-      <x>460</x>
-      <y>210</y>
+      <x>360</x>
+      <y>220</y>
       <width>171</width>
       <height>141</height>
      </rect>
@@ -110,7 +84,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/poncho.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -129,13 +103,13 @@
      <string>Usuario</string>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider">
+   <widget class="QSlider" name="vs_persona">
     <property name="geometry">
      <rect>
       <x>160</x>
       <y>240</y>
       <width>22</width>
-      <height>160</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="orientation">
@@ -148,7 +122,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>899</width>
+     <width>703</width>
      <height>26</height>
     </rect>
    </property>

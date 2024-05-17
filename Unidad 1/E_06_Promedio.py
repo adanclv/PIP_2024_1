@@ -11,10 +11,11 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
         # Área de los Signals
-        self.btn_calcular.clicked.connect(self.calcular)
+        self.btn_calcular.clicked.connect(self.calcular, 20)
 
     # Área de los Slots
-    def calcular(self):
+    def calcular(self, n):
+        print(n)
         calif1 = float(self.txt_calif1.text())
         calif2 = float(self.txt_calif2.text())
         calif3 = float(self.txt_calif3.text())

@@ -1,8 +1,22 @@
 <RCC>
-  <qresource prefix="variable"/>
+  <qresource prefix="variable">
+    <file>Imagenes/blue-circle.png</file>
+    <file>Imagenes/green-circle.png</file>
+    <file>Imagenes/yellow-circle.png</file>
+    <file>Imagenes/red-circle.png</file>
+    <file>Imagenes/paper.png</file>
+    <file>Imagenes/rock.png</file>
+    <file>Imagenes/scissors.png</file>
+  </qresource>
   <qresource prefix="logo">
+    <file>Imagenes/LogoFIT.png</file>
+    <file>Imagenes/UAT-Escudo-2024.png</file>
+    <file>Imagenes/adan.jpg</file>
+    <file>Imagenes/cristobal.jpg</file>
+    <file>Imagenes/pavel.jpg</file>
+    <file>Imagenes/poncho.jpg</file>
+    <file>Imagenes/logoCT.png</file>
     <file>Imagenes/logo uat.png</file>
-    <file>Imagenes/logo uat y fit.png</file>
     <file>Imagenes/logo fit.png</file>
     <file>Imagenes/imagenCables.png</file>
   </qresource>

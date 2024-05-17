@@ -19,15 +19,15 @@
      <rect>
       <x>30</x>
       <y>20</y>
-      <width>171</width>
-      <height>101</height>
+      <width>301</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/logo uat.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -36,17 +36,17 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>674</x>
-      <y>30</y>
-      <width>171</width>
-      <height>91</height>
+      <x>600</x>
+      <y>10</y>
+      <width>271</width>
+      <height>131</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/logo fit.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -65,39 +65,13 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
+     <pixmap resource="../recursos.qrc">:/logo/Imagenes/logoCT.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>560</x>
-      <y>30</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>FAcultad</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>20</y>
-      <width>55</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>UAT</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="img_persona_4">
+   <widget class="QLabel" name="img_persona">
     <property name="geometry">
      <rect>
       <x>460</x>
@@ -108,9 +82,6 @@
     </property>
     <property name="text">
      <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/logo/Imagenes/imagenCables.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -129,7 +100,7 @@
      <string>Usuario</string>
     </property>
    </widget>
-   <widget class="QDial" name="dial">
+   <widget class="QDial" name="dial_persona">
     <property name="geometry">
      <rect>
       <x>190</x>
