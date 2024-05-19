@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(81, 124, 166);</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>30</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;Yu Gothic UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Reporte Semanal</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>120</y>
+     <width>691</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 100);
+border: 1px solid black;
+border-radius: 25px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>150</y>
+     <width>601</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>601</width>
+     <height>291</height>
+    </size>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>581</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <item row="3" column="5">
+      <widget class="QLabel" name="lbl_Hector5">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QLabel" name="lbl_Hector4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLabel" name="lbl_Hector6">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="lbl_Emi1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="lbl_Emi3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLabel" name="lbl_Emi2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QLabel" name="lbl_Emi4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QLabel" name="lbl_Emi6">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QLabel" name="lbl_Emi5">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="lbl_Fabian2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="lbl_Fabian1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLabel" name="lbl_Fabian4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="lbl_Hector2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLabel" name="lbl_Fabian6">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QLabel" name="lbl_Fabian5">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLabel" name="lbl_Hector3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="lbl_Fabian3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Emiliano</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="label_9">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Jueves</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_8">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Miercoles</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_7">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Martes</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="label_10">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Viernes</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Fabian</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="label_11">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Total Semana</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Hector</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Lunes</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="lbl_Hector1">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 9pt &quot;Verdana&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI</family>
+         <pointsize>8</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255, 0);
+font: 8pt &quot;Yu Gothic UI&quot;;</string>
+       </property>
+       <property name="text">
+        <string>KM</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>label_2</zorder>
+  <zorder>frame</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
